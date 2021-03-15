@@ -30,7 +30,7 @@ public class Hinhtru extends Hinhtron{
         // tinh the tich
         public double getthetich(){
             double v = 0;
-            v= v+ getdientich()*chieucao;
+            v= v+ super.getdientich()*chieucao;
             return v;   
         }
         
